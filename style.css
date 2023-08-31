@@ -1,0 +1,89 @@
+
+  @import url('./variable.css');
+/* nac bar */
+
+*{
+  font-family: var(--font-family);
+}
+.location p{
+  margin-top: 10px;
+    font-size: 20px;
+    line-height: 2px;
+}
+.location span{
+  margin-right: 10px;
+  font-size: 12px;
+}
+ .login{
+  width: 120px;
+  height: 50px;
+  font-size: 20px;
+
+ }
+
+/* section-1 */
+ul li .input-group{
+  margin: 5px 20px 5px 20px;
+  width:600px;
+  height: 50px;
+  border-radius: 20px;
+  outline: none;
+}
+/* section-2 */
+
+.scorll{
+  overflow-y: scroll;
+  width:1130px;
+  height: 290px;
+  margin: 0px 160px 0px 160px;
+  border-radius: 5px 5px 5px 5px;
+}
+
+
+.scorll::-webkit-scrollbar{
+  overflow: scroll;
+}
+/* section 3 category */
+.category{
+  width: 1160px;
+  margin: 0px 0px 0px 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  
+
+}
+.category img{
+  height: 150px;
+  width: 90px;
+
+}
+
+/* section 4 buy card */
+
+.dairy{
+  
+    overflow-y: scroll;
+    width:1130px;
+  
+    margin: 0px 0px 0px 150px;
+    
+}
+
+.dairy .card{
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  line-height: 25px;
+ 
+}
+h6{
+  font-weight: var(--fw-700);
+}
+.dairy .card p{
+  color: var(--color-grey);
+  font-weight: var(--fw-400);
+}
+
+.dairy::-webkit-scrollbar{
+  overflow: scroll;
+}
